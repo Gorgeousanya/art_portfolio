@@ -54,7 +54,7 @@ function Store() {
 
     return (
         <div className="App2" style={{ backgroundColor: "black"}}>
-            <Link to="/" style={{ textDecoration: 'none' }} >
+            <Link to="/art_portfolio" style={{ textDecoration: 'none' }} >
             <h1 class="store-title">Анна Плохотнюк</h1>
         </Link>
         <div style={{ position: 'absolute', top: '50px', right: '220px'}}>
