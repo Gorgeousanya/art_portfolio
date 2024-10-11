@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/art_portfolio/static/css/main.6bc2004d.css",
+    "main.js": "/art_portfolio/static/js/main.10d19b54.js",
+    "static/js/453.bb828c5d.chunk.js": "/art_portfolio/static/js/453.bb828c5d.chunk.js",
+    "static/media/untitled1.png": "/art_portfolio/static/media/untitled1.2c308e0ab0d9632ca24f.png",
+    "static/media/2.PNG": "/art_portfolio/static/media/2.f328ee1052a7497dc094.PNG",
+    "static/media/4.png": "/art_portfolio/static/media/4.2977a0e39f6490d8b10a.png",
+    "static/media/photo.png": "/art_portfolio/static/media/photo.688d5a604f94814b6179.png",
+    "static/media/photo2.png": "/art_portfolio/static/media/photo2.3d37b466978d54cdd7f7.png",
+    "static/media/Тема 3.png": "/art_portfolio/static/media/Тема 3.1f79f2121401a4f351cf.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/art_portfolio/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/logoOn.png": "/art_portfolio/static/media/logoOn.a699688b63b4695d45c8.png",
+    "static/media/logo2.png": "/art_portfolio/static/media/logo2.ccc165e0fbde7507fba7.png",
+    "static/media/logoOff.png": "/art_portfolio/static/media/logoOff.6bc3abcce104e3d0bb42.png",
+    "static/media/1.jpg": "/art_portfolio/static/media/1.c4b1fd2534c0a34e4a8f.jpg",
+    "static/media/buttonOn.png": "/art_portfolio/static/media/buttonOn.b33f0329ec58d029c3ef.png",
+    "static/media/buttonOff.png": "/art_portfolio/static/media/buttonOff.2a3d6d2cc0f8f756d65b.png",
+    "index.html": "/art_portfolio/index.html",
+    "main.6bc2004d.css.map": "/art_portfolio/static/css/main.6bc2004d.css.map",
+    "main.10d19b54.js.map": "/art_portfolio/static/js/main.10d19b54.js.map",
+    "453.bb828c5d.chunk.js.map": "/art_portfolio/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bc2004d.css",
+    "static/js/main.10d19b54.js"
+  ]
+}
