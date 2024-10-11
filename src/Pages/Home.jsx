@@ -5,19 +5,19 @@ function Home() {
     const [isOpen, setIsOpen] = useState(false);
     return (
     <div className="App">
-        <h1 class="store-title">Anna Plokhotnyuk</h1>
+        <h1 class="store-title">Анна Плохотнюк</h1>
         <div style={{ position: 'absolute', top: '50px', right: '220px'}}>
         <div id="button" onClick={()=>setIsOpen(!isOpen)}></div>
         { isOpen &&
         <div className="buttons" >
             <Link to="/bio" style={{ textDecoration: 'none' }} >
-                <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >About</button>
+                <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Обо мне</button>
             </Link>
-            <Link to="/store" style={{ textDecoration: 'none' }}>
-            <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Works</button>
+            <Link to="/works" style={{ textDecoration: 'none' }}>
+            <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Работы</button>
             </Link>
             <Link to="/contact" style={{ textDecoration: 'none' }}>
-            <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Contact</button>
+            <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Контакты</button>
             </Link>
             </div>
         }
