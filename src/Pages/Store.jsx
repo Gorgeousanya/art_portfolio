@@ -55,8 +55,8 @@ function Store() {
     return (
         <div className="App2" style={{ backgroundColor: "black"}}>
             <Link to="/art_portfolio" style={{ textDecoration: 'none' }} >
-            <h1 class="store-title">Анна Плохотнюк</h1>
-        </Link>
+                <h1 class="store-title">Анна Плохотнюк</h1>
+            </Link>
         <div style={{ position: 'absolute', top: '50px', right: '220px'}}>
         <div id="button" onClick={()=>setIsOpen(!isOpen)}></div>
         { isOpen &&

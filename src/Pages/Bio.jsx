@@ -10,7 +10,7 @@ function Bio() {
         <img src={photo} style={{ position: 'absolute', top: '0', left: '0', width: '300px'}}/>
         <img src={photo2} style={{ position: 'absolute', bottom: '0', right: '0', width: '300px'}}/>
         <Link to="/art_portfolio" style={{ textDecoration: 'none' }} >
-            <h1 class="store-title">Анна Плохотнюк</h1>
+            <h1 className="store-title">Анна Плохотнюк</h1>
         </Link>
         <div style={{ position: 'absolute', top: '50px', right: '220px'}}>
         <div id="button" onClick={()=>setIsOpen(!isOpen)}></div>
