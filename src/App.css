@@ -16,8 +16,8 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  background-image: url("./png/untitled1.png");
+  background-color: rgb(0,0,0);
+  background-image: url("./png/3.png");
   background-size: contain;
   min-height: 100vh;
 }
@@ -77,21 +77,24 @@ h1{
 
 #button {
   background-image: url('./Images/buttonOff.png');
+  position: absolute;
+  top: 0px;
+  left: 1050px;
   cursor: pointer;
   height: 100px;
   width: 100px;
-  position: absolute;
-  top: 20px;
-  right: 40px;
+  margin-left: 38px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #button:hover {
   background-image: url('./Images/buttonOn.png');
   height: 180px;
   width: 180px;
-  position: absolute;
-  top: -20px;
-  right: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 #excess {
@@ -192,10 +195,13 @@ p{
 }
 
 .buttons{
-  position: relative;
-  top: 150px;
+  position: absolute;
+  top: 160px;
+  left: 1060px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons{
@@ -211,9 +217,9 @@ p{
 
 .store-title{
   position: absolute;
-  top: 16px;
+  top: 45px;
   left: 42vw;
-  font-size: 24px;
+  font-size: 4vh;
 }
 
 .dawn{
@@ -243,7 +249,7 @@ p{
   padding: 15px
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 1200px) { 
   #curve {
     position: absolute;
     height: 160vh;
@@ -278,7 +284,13 @@ p{
   }
 
   .buttons{
-    position: relative;
+    top: calc(50vh + 80px);
+    left: calc(50vw - 90px);
+  }
+
+  #button {
+    top: calc(50vh - 100px);
+    left: calc(50vw - 100px);
   }
 
   .excess{
@@ -327,9 +339,9 @@ p{
   }
 
   .store-title{
-    font-size: 32px;
-    top: 80px;
-    left: 35vw;
+    font-size: 22px;
+    top: 0;
+    left: calc(50vw - 100px);
   }
 
   p{

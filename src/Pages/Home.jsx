@@ -7,10 +7,10 @@ function Home() {
     return (
     <div className="App">
         <h1 className="store-title">Анна Плохотнюк</h1>
-        <div style={{ position: 'absolute', top: '50px', right: '220px'}}>
+        <div >
         <div id="button" onClick={()=>setIsOpen(!isOpen)}></div>
         { isOpen &&
-        <div className="buttons" >
+        <div className="buttons">
             <Link to="/bio" style={{ textDecoration: 'none' }} >
                 <button className="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Обо мне</button>
             </Link>
