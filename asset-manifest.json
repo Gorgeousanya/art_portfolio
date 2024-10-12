@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/art_portfolio/static/css/main.09c139ef.css",
-    "main.js": "/art_portfolio/static/js/main.5f3673da.js",
+    "main.css": "/art_portfolio/static/css/main.f1bb2dde.css",
+    "main.js": "/art_portfolio/static/js/main.5a88d306.js",
     "static/js/453.bb828c5d.chunk.js": "/art_portfolio/static/js/453.bb828c5d.chunk.js",
     "static/media/5.png": "/art_portfolio/static/media/5.71a2703b6bba265cc6b4.png",
     "static/media/4.JPG": "/art_portfolio/static/media/4.010c941247cee53169a1.JPG",
-    "static/media/untitled1.png": "/art_portfolio/static/media/untitled1.2c308e0ab0d9632ca24f.png",
+    "static/media/3.png": "/art_portfolio/static/media/3.859ebfbf8072456dda51.png",
     "static/media/8.png": "/art_portfolio/static/media/8.5a7dcf072e9d8a55c0ad.png",
     "static/media/2.PNG": "/art_portfolio/static/media/2.f328ee1052a7497dc094.PNG",
     "static/media/6.png": "/art_portfolio/static/media/6.2977a0e39f6490d8b10a.png",
@@ -23,12 +23,12 @@
     "static/media/buttonOn.png": "/art_portfolio/static/media/buttonOn.b33f0329ec58d029c3ef.png",
     "static/media/buttonOff.png": "/art_portfolio/static/media/buttonOff.2a3d6d2cc0f8f756d65b.png",
     "index.html": "/art_portfolio/index.html",
-    "main.09c139ef.css.map": "/art_portfolio/static/css/main.09c139ef.css.map",
-    "main.5f3673da.js.map": "/art_portfolio/static/js/main.5f3673da.js.map",
+    "main.f1bb2dde.css.map": "/art_portfolio/static/css/main.f1bb2dde.css.map",
+    "main.5a88d306.js.map": "/art_portfolio/static/js/main.5a88d306.js.map",
     "453.bb828c5d.chunk.js.map": "/art_portfolio/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09c139ef.css",
-    "static/js/main.5f3673da.js"
+    "static/css/main.f1bb2dde.css",
+    "static/js/main.5a88d306.js"
   ]
 }
