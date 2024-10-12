@@ -100,20 +100,6 @@ function Works() {
                         <p>2023</p>
                     </div>
                 </div>
-                <div class="block" >
-                    <img src={merch2} ></img>
-                    <div class="price"> 
-                        <p>ПИЛЛОУ</p>
-                        <p>2023</p>
-                    </div>
-                </div>
-                <div class="block" >
-                    <img src={merch6}></img>
-                    <div class="price"> 
-                        <p>BlueTeeth / Грустные зубы</p>
-                        <p>2023</p>
-                    </div>
-                </div>
             </div>
             <Modal
                 isOpen={modalIsOpen}
