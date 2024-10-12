@@ -27,13 +27,8 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  min-height: 140vh;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: rgb(0,0,0);
+  min-height: 100vh;
 }
 
 .header {
@@ -44,40 +39,9 @@ h1{
   align-items: "center";
 }
 
-#home {
-  background-image: url('./Images/logoOff.png');
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 250px;
-  width: 250px;
-}
-
-#home:hover {
-  background-image: url('./Images/logoOn.png');
-  height: 434px;
-  width: 434px;
-  position: absolute;
-  top: -92px;
-  right: -92px;
-}
-
-#home2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  background-image: url('./Images/logo2.png');
-  cursor: pointer;
-  height: 250px;
-  width: 250px;
-}
-
 #button {
   background-image: url('./Images/buttonOff.png');
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 1050px;
   cursor: pointer;
@@ -97,31 +61,13 @@ h1{
   margin-bottom: 0;
 }
 
-#excess {
-  height: 12vh;
-  width: 23vw;
-  margin-bottom: 22px;
-  font-size: 2vw;
-}
-
-#curve {
-  background-size: cover;
-  width: 100vw;
-  height: 20vw;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
 .store{
   background-size: cover;
   min-height: 100vh;
   padding: 2% 5%;
 }
 
-.basket{
+.nav{
   flex-shrink: 0;
   border-radius: 10px;
   background: linear-gradient(127deg, rgba(255, 255, 255, 0.40) 10.63%, rgba(255, 255, 255, 0.10) 73.38%);
@@ -132,6 +78,11 @@ h1{
   font-size: 20px;
   margin-top: 8px;
   cursor: pointer;
+  width: 170px;
+  height: 50px;
+  font-size: 18px;
+  margin-bottom: 12px;
+  z-index: 2;
 }
 
 #store{
@@ -139,7 +90,7 @@ h1{
   height: 60px;
 }
 
-.basket:hover{
+.nav:hover{
   background: linear-gradient(127deg, rgba(255, 255, 255, 0.50) 10.63%, rgba(255, 255, 255, 0.20) 73.38%);
 }
 
@@ -167,10 +118,11 @@ h1{
 }
 
 .block{
-  width: 23vw;
+  width: 20vw;
   margin-bottom: 60px;
   img{
-    width: 23vw;
+    width: 20vw;
+    height: 20vw;
   }
 }
 
@@ -182,10 +134,11 @@ h1{
 }
 
 .content{
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+  width: 50vw;
 }
 
 p{
@@ -195,24 +148,18 @@ p{
 }
 
 .buttons{
-  position: absolute;
+  position: fixed;
   top: 160px;
   left: 1060px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .icons{
   width: 5vw;
-}
-
-.excess{
-  position: absolute;
-  left: 10%; 
-  top: 35%;
-  width: 25vw;
 }
 
 .store-title{
@@ -220,20 +167,7 @@ p{
   top: 45px;
   left: 42vw;
   font-size: 4vh;
-}
-
-.dawn{
-  position: absolute;
-  left: 70%;
-  top: 35%;
-  width: 25vw;
-
-}
-
-#officialLyricVideo{
-  width: 23vw;
-  height: 3vw;
-  font-size: 1.2vw;
+  text-shadow: #FFFFFF 1px 0 10px;
 }
 
 #add-to-basket{
@@ -249,31 +183,31 @@ p{
   padding: 15px
 }
 
+.photo_1{
+  position: fixed;
+  width: 20vw;
+  top: 0;
+  left: 0;
+}
+.photo_2 {
+  position: fixed;
+  width: 20vw;
+  bottom: 0;
+  right: 0;
+}
+
+.bio {
+  width: 44vw;
+}
+
 @media (max-width: 1200px) { 
-  #curve {
+  .bio {
     position: absolute;
-    height: 160vh;
-    width: 220px;
-    top: 70%;
-    left: 47%;
-    background-color: black;
+    top: 160px;
+    width: 95vw;
   }
 
-  #excess {
-    height: 20vw;
-    width: 78vw;
-    margin-bottom: 22px;
-    font-size: 24px;
-  }
-
-  #officialLyricVideo{
-    height: 14vw;
-    width: 78vw;
-    margin-bottom: 22px;
-    font-size: 18px;
-  }
-
-  .basket{
+  .nav{
     font-size: 12px;
   }
 
@@ -284,13 +218,13 @@ p{
   }
 
   .buttons{
-    top: calc(50vh + 80px);
-    left: calc(50vw - 90px);
+    top: 200px;
+    left: calc(50vw - 80px);
   }
 
   #button {
-    top: calc(50vh - 100px);
-    left: calc(50vw - 100px);
+    top: 20px;
+    left: calc(50vw - 90px);
   }
 
   .excess{
@@ -326,15 +260,16 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: color;
+    width: 90vw;
   }
 
   .block{
-    width: 20vw;
+    width: 40vw;
     cursor: pointer;
     margin-bottom: 60px;
     img{
-      width: 20vw;
+      width: 40vw;
+      height: 40vw;
     }
   }
 

@@ -7,22 +7,20 @@ function Home() {
     return (
     <div className="App">
         <h1 className="store-title">Анна Плохотнюк</h1>
-        <div >
         <div id="button" onClick={()=>setIsOpen(!isOpen)}></div>
         { isOpen &&
         <div className="buttons">
             <Link to="/bio" style={{ textDecoration: 'none' }} >
-                <button className="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Обо мне</button>
+                <button className="nav">Обо мне</button>
             </Link>
             <Link to="/works" style={{ textDecoration: 'none' }}>
-            <button className="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Работы</button>
+            <button className="nav">Работы</button>
             </Link>
             <Link to="/contact" style={{ textDecoration: 'none' }}>
-            <button className="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Контакты</button>
+            <button className="nav">Контакты</button>
             </Link>
             </div>
         }
-        </div>
     </div>)
 }
 

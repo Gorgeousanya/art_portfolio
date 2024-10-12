@@ -7,28 +7,26 @@ function Bio() {
     const [isOpen, setIsOpen] = useState(false);
     return (
     <div className="App2">
-        <img src={photo} style={{ position: 'absolute', top: '0', left: '0', width: '300px'}}/>
-        <img src={photo2} style={{ position: 'absolute', bottom: '0', right: '0', width: '300px'}}/>
+        <img src={photo} className="photo_1"/>
+        <img src={photo2} className="photo_2"/>
         <Link to="/art_portfolio" style={{ textDecoration: 'none' }} >
             <h1 className="store-title">Анна Плохотнюк</h1>
         </Link>
-        <div style={{ position: 'absolute', top: '50px', right: '220px'}}>
         <div id="button" onClick={()=>setIsOpen(!isOpen)}></div>
         { isOpen &&
-        <div className="buttons" >
+        <div className="buttons">
             <Link to="/bio" style={{ textDecoration: 'none' }} >
-                <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Обо мне</button>
+                <button className="nav" >Обо мне</button>
             </Link>
             <Link to="/works" style={{ textDecoration: 'none' }}>
-            <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Работы</button>
+            <button className="nav" >Работы</button>
             </Link>
             <Link to="/contact" style={{ textDecoration: 'none' }}>
-            <button class="basket" style={{width: "170px", height: "50px", fontSize: "18px", marginBottom: "12px"}} >Контакты</button>
+            <button className="nav" >Контакты</button>
             </Link>
             </div>
         }
-        </div>
-        <div style={{position: "absolute", top: "15vh", width: "45vw"}}>
+        <div className="bio">
             <h1 style={{fontSize: "18px"}}>Биография</h1>
             <p style={{fontSize: "14px"}}>Медиа художница, перформерша, разработчица.<br/>
 	Родилась и проживает в Москве. Окончила бакалавриат НИТУ МИСИС по направлению “Прикладная математика”, обучается в магистратуре по направлению “Технологическое искусство”, является ведущим инженером по разработке Виртуального ассистента в Сбере.<br/>
@@ -39,7 +37,6 @@ function Bio() {
             Во время изучения математики и программирования эти дисциплины раскрылись для меня как возможные средства создания художественных проектов.<br/>
 Поскольку моим основным родом деятельности является разработка, ежедневное тесное взаимодействие с цифровым миром заставляет размышлять о нем изнутри и интерпретировать через более человекоцентричное восприятие посредством технологического перфоманса. <br/>
 В моей творческой практике темами становятся воссоздание древних архетипических образов в контексте современного мира и запечатление артефактов нашего времени для футуристического общества будущего.
-
             </p>
         </div>
     </div>)
